@@ -1,4 +1,10 @@
+@import 'https://fonts.googleapis.com/css?family=Raleway';
+
 /*header*/
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 .logo {
   width:90px;
   float: left;
@@ -23,7 +29,35 @@
 }
 .featured {
   text-transform: uppercase;
+  font-weight: bold;
 }
-.thumbnailpictures {
-  height: 150px;
+#featured-section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.thumbnail {
+  background: #edf1f4;
+}
+.product-pic {
+  padding:10px;
+}
+.purchase-now {
+  background: #5bc0de;
+  font-size: 12px;
+}
+.product-caption {
+  padding: 10px !important;
+}
+.product-caption h4 {
+  font-weight: bold;
+}
+.service-tab {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.service-tab:hover {
+  color: #ff827b
+}
+.service-p {
+  margin-top: 10px;
 }

@@ -61,3 +61,24 @@ body {
 .service-p {
   margin-top: 10px;
 }
+footer {
+  background: #000;
+  min-height: 150px;
+  color: #fff;
+}
+#footer-logo {
+  height: 100px;
+}
+.footer-border {
+  border-left: 1px solid #333;
+}
+#footer-contents {
+  margin-top: 15px;
+}
+address {
+  color: #fff;
+  padding: 20px 0px 0px 10px;
+}
+i {
+  margin-right: 4px;
+}
